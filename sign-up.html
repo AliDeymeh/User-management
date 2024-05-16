@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <form class="form" onsubmit="return false" autocomplete="off">
+      <div class="form-inner">
+        <h2>User Register</h2>
+
+        <div class="input-wrapper">
+          <label for="login-username">Username</label>
+          <div class="input-group">
+            <span class="icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.301 18.9281L18.9215 18.5607C20.2077 17.799 21 16.3914 21 14.8681V9.13192C21 7.6086 20.2077 6.20099 18.9215 5.43932L14.0785 2.57125C12.7923 1.80958 11.2077 1.80958 9.92154 2.57125L5.07846 5.43932C3.7923 6.20099 3 7.6086 3 9.13192V14.8681C3 16.3914 3.7923 17.799 5.07846 18.5607L5.69896 18.9281M18.301 18.9281L14.0785 21.4288C12.7923 22.1904 11.2077 22.1904 9.92154 21.4288L5.69896 18.9281M18.301 18.9281C17.0431 16.6982 14.6924 15.1979 12 15.1979C9.30762 15.1979 6.95686 16.6982 5.69896 18.9281"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="3"
+                  cy="3"
+                  r="3"
+                  transform="matrix(1 0 0 -1 9 12)"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <input type="text" id="login-username" data-lpignore="true" />
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <label for="login-lastname">LastName</label>
+          <div class="input-group">
+            <span class="icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.5588 19.5488C17.5654 16.8918 15.0036 15 12 15C8.99638 15 6.4346 16.8918 5.44117 19.5488M18.5588 19.5488C20.6672 17.7154 22 15.0134 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 15.0134 3.33285 17.7154 5.44117 19.5488M18.5588 19.5488C16.8031 21.0756 14.5095 22 12 22C9.49052 22 7.19694 21.0756 5.44117 19.5488"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="3"
+                  cy="3"
+                  r="3"
+                  transform="matrix(1 0 0 -1 9 12)"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <input type="text" id="login-lastname" data-lpignore="true" />
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <label for="login-phone">Phone</label>
+          <div class="input-group">
+            <span class="icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 19V17.3541C21 16.5363 20.5021 15.8008 19.7428 15.4971L17.7086 14.6835C16.7429 14.2971 15.6422 14.7156 15.177 15.646L15 16C15 16 12.5 15.5 10.5 13.5C8.5 11.5 8 9 8 9L8.35402 8.82299C9.28438 8.35781 9.70285 7.25714 9.31654 6.29136L8.50289 4.25722C8.19916 3.4979 7.46374 3 6.64593 3H5C3.89543 3 3 3.89543 3 5C3 13.8366 10.1634 21 19 21C20.1046 21 21 20.1046 21 19Z"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <input type="text" id="login-phone" data-lpignore="true" />
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <label for="login-password">Password</label>
+          <div class="input-group">
+            <span class="icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 8V6C2 3.79086 3.79086 2 6 2H8M16 2H18C20.2091 2 22 3.79086 22 6V8M22 16V18C22 20.2091 20.2091 22 18 22H16M8 22H6C3.79086 22 2 20.2091 2 18V16M13 10V13M8 17L8.34315 16.6569C9.40401 15.596 10 14.1571 10 12.6569V10C10 8.34315 11.3431 7 13 7C14.6569 7 16 8.34315 16 10V12.6569C16 14.1571 15.404 15.596 14.3431 16.6569L14 17"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <input type="password" id="login-password" data-lpignore="true" />
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn--primary">Sign Up</button>
+          <a class="btn--text" href="#0">Sign In</a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

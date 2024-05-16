@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <form class="form" onsubmit="return false" autocomplete="off">
+      <div class="form-inner">
+        <h2>User Login</h2>
+
+        <div class="input-wrapper">
+          <label for="login-username">Username</label>
+          <div class="input-group">
+            <span class="icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.5588 19.5488C17.5654 16.8918 15.0036 15 12 15C8.99638 15 6.4346 16.8918 5.44117 19.5488M18.5588 19.5488C20.6672 17.7154 22 15.0134 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 15.0134 3.33285 17.7154 5.44117 19.5488M18.5588 19.5488C16.8031 21.0756 14.5095 22 12 22C9.49052 22 7.19694 21.0756 5.44117 19.5488"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="3"
+                  cy="3"
+                  r="3"
+                  transform="matrix(1 0 0 -1 9 12)"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <input type="text" id="login-username" data-lpignore="true" />
+          </div>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="login-password">Password</label>
+          <div class="input-group">
+            <span class="icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 8V6C2 3.79086 3.79086 2 6 2H8M16 2H18C20.2091 2 22 3.79086 22 6V8M22 16V18C22 20.2091 20.2091 22 18 22H16M8 22H6C3.79086 22 2 20.2091 2 18V16M13 10V13M8 17L8.34315 16.6569C9.40401 15.596 10 14.1571 10 12.6569V10C10 8.34315 11.3431 7 13 7C14.6569 7 16 8.34315 16 10V12.6569C16 14.1571 15.404 15.596 14.3431 16.6569L14 17"
+                  stroke="#28303F"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <input type="password" id="login-password" data-lpignore="true" />
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn--primary">Sign in</button>
+          <a class="btn--text" href="#0">Sign Up</a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
